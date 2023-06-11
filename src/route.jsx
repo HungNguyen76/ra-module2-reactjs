@@ -12,6 +12,7 @@ import UseContext from "./session3/hooks/UseContext";
 import UseRef from "./session3/hooks/UseRef";
 import FlipCoin from "./session2/practice/Flipcoin";
 import TodoList from "./session3/practice/TodoList";
+import Note from "./components/Note";
 
 export default function Router() {
   return (
@@ -26,6 +27,7 @@ export default function Router() {
         <Route path="/hooks/useRef" element={<UseRef />} />
         <Route path="/practice2/flipCoin" element={<FlipCoin />} />
         <Route path="/practice3/todoList" element={<TodoList />} />
+        <Route path="/note" element={<Note />} />
         <Route path="/session2" element={<Class />} />
         <Route path="/session3" element={<Hooks />} />
         <Route path="/" element={<Homepage />} />
